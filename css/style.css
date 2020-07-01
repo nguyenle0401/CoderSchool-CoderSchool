@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color:  gainsboro;
   }
 
   .navbar-nav > .nav-item {
@@ -11,15 +11,17 @@ body {
     padding-top: 15%;
     align-items: center;
     flex-direction: column;
+    min-height: 800px;
+    background-color: white;
   }
 
-  :root {
+  /* :root {
     --red: #cd4541;
   }
   
   .red {
     color: var(--red);
-  }
+  } */
 
   .btn-primary {
     border: 0px;
@@ -34,4 +36,40 @@ body {
 
   #third {
     background-image: url(/img/banner.jpg);
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
+
+  .row{
+   align-content: space-between;
+  }
+
+  footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+  #fourth > .container > p:nth-last-of-type(1) {
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+
+  .typewrite {
+    font-weight: bold;
+    font-size: 37px;
+    /* color: red; */
+
+  }
+  #second, #fourth{
+      background-color: gainsboro;
+  }
+  /* .card{
+    max-height:700px;
+  } */
+
+
+  
+  
