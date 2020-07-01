@@ -1,0 +1,6 @@
+body {
+    background-color: red;
+  }
+  .navbar-nav > .nav-item {
+    margin-left: 15px;
+  }
