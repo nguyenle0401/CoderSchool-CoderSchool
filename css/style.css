@@ -1,5 +1,5 @@
 body {
-    background-color:  gainsboro;
+    background-color:#E9EBEE;
   }
 
   .navbar-nav > .nav-item {
@@ -8,20 +8,20 @@ body {
 
   section {
     display: flex;
-    padding-top: 15%;
     align-items: center;
     flex-direction: column;
     min-height: 800px;
     background-color: white;
+    padding-top: 4%;
   }
 
-  /* :root {
-    --red: #cd4541;
+  footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height:30px;
   }
-  
-  .red {
-    color: var(--red);
-  } */
 
   .btn-primary {
     border: 0px;
@@ -34,41 +34,47 @@ body {
     box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
   }
 
+  #first{
+    padding-top: 12%;
+  }
+
+  #second, #fourth{
+    background-color:#E9EBEE;
+}
+
   #third {
     background-image: url(/img/banner.jpg);
     display:flex;
     align-items: center;
     justify-content: center;
+    padding-top: 12%;
   }
 
-  .row{
-   align-content: space-between;
+  #fourth{
+    padding-left: 5%;
+    padding-right: 5%;
   }
-
-  footer{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-  }
-
+  
   #fourth > .container > p:nth-last-of-type(1) {
     font-size: 25px;
     margin-bottom: 100px;
   }
 
+ 
   .typewrite {
     font-weight: bold;
     font-size: 37px;
-    /* color: red; */
+  }
 
+  .card-text{
+    min-height:75px;
   }
-  #second, #fourth{
-      background-color: gainsboro;
+
+  .card {
+    margin-bottom: 25px;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
   }
-  /* .card{
-    max-height:700px;
-  } */
+
 
 
   
